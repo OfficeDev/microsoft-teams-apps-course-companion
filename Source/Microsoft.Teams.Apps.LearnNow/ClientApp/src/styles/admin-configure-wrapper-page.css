@@ -1,0 +1,200 @@
+﻿.admin-configure-page {
+    margin-left: 2.5rem;
+    margin-top: 1rem;
+    margin-right: 2.4rem;
+}
+
+.commandbar-wrapper {
+    background-color: #fbfbfb;
+    margin-top: 0.7rem;
+    padding: 0.4rem 0.2rem 0.4rem 0.2rem;
+}
+
+.dark-container .commandbar-wrapper {
+    background-color: #201F1F;
+    margin-top: 0.7rem;
+    padding: 0.4rem 0.2rem 0.4rem 0.2rem;
+}
+
+.high-contrast-container .commandbar-wrapper {
+    background-color: Black;
+    margin-top: 0.7rem;
+    padding: 0.4rem 0.2rem 0.4rem 0.2rem;
+}
+
+.add-new-button {
+    min-width: 10.5rem !important;
+    margin: 0;
+    padding-left: 0 !important;
+}
+
+.edit-button {
+    margin: 0;
+    min-width: 7.3rem !important;
+    padding-left: 0 !important;
+}
+
+.delete-button {
+    margin: 0;
+    min-width: 9rem !important;
+    padding-left: 0 !important;
+}
+
+.search-input-container {
+    margin-left: 9.8rem;
+    width: 374px;
+}
+
+.table-checkbox-cell {
+    max-width: 3rem;
+}
+
+.table-label-cell {
+    max-width: 10rem;
+}
+
+.tab-footer-admin {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 53rem;
+    width: 100vw;
+    height: 10vh;
+    padding-bottom: 1rem !important;
+    padding-left: 0.5rem;
+    padding-right: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.add-new-grade-page {
+    margin-left: 3.2rem;
+    margin-top: 1rem;
+    margin-right: 2.4rem;
+}
+
+.dark-container .add-new-grade-page {
+    margin-left: 3.2rem;
+    padding-top: 1rem;
+    margin-right: 2.4rem;
+    height: 40rem;
+    margin-top: 0rem;
+}
+
+.high-contrast-container .add-new-grade-page {
+    margin-left: 3.2rem;
+    padding-top: 1rem;
+    margin-right: 2.4rem;
+    height: 40rem;
+    margin-top: 0rem;
+}
+
+.add-form-container {
+    margin-right: 26rem;
+    margin-top: 1.5rem;
+}
+
+.add-form-input {
+    margin-top: 0.5rem;
+    margin-bottom: 2.2rem;
+    width: 45rem;
+}
+
+.add-form-button-container {
+    position: fixed;
+    left: 1.2rem;
+    bottom: 4rem;
+    right: 2.5rem;
+}
+
+.checkbox-ui {
+    height: 1.5rem;
+    width: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.table-cell-content {
+    overflow-y: auto;
+    overflow-x: hidden;
+    height: 60vh;
+    width: auto;
+}
+
+.menu-style {
+    margin-left: 5rem;
+}
+
+.field-error-message {
+    position: absolute;
+    right: 32rem;
+}
+
+.generic-error-message {
+    position: absolute;
+    left: 2rem;
+}
+
+.admin-menu {
+    margin-left: 2.5rem !important;
+    margin-top: 1.5rem !important;
+    margin-bottom: 1.5rem !important;
+    border: none !important;
+}
+
+.dark-container .admin-config-tab-ui {
+    height: 40rem;
+}
+
+.high-contrast-container .admin-config-tab-ui {
+    height: 40rem;
+}
+
+.high-contrast-container .container-ui {
+    padding-top: 1rem;
+}
+
+.dark-container .container-ui {
+    padding-top: 1rem;
+}
+
+.tbl-right-padding {
+    padding-right: 3rem;
+}
+
+.admin-configure-page-centre {
+    padding-top: 20rem;
+}
+
+
+@media (max-width: 600px) {
+    .delete-dialog-mobile {
+        width: 68vw !important;
+    }
+
+    .add-new-button {
+        min-width: 5rem !important;
+    }
+
+    .edit-button {
+        min-width: 0rem !important;
+    }
+
+    .delete-button {
+        min-width: 5rem !important;
+    }
+
+    .add-form-input {
+        width: 32rem !important;
+    }
+
+    .generic-error-message {
+        padding-top: 1rem;
+    }
+
+    .field-error-message {
+        right: 5rem;
+    }
+
+    .add-form-button-container {
+        bottom: 6rem;
+    }
+}

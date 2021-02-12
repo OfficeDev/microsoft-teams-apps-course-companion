@@ -1,0 +1,60 @@
+{
+  "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.7/MicrosoftTeams.schema.json",
+  "manifestVersion": "1.7",
+  "version": "1.0.0",
+  "id": "13d6a3fc-32ae-463e-a2b2-441b51671425",
+  "packageName": "com.microsoft.teams.coursecompanion.configurator",
+  "developer": {
+    "name": "<company name>",
+    "websiteUrl": "<website url>",
+    "privacyUrl": "<website url>/privacy",
+    "termsOfUseUrl": "<website url>/termsofuse"
+  },
+  "icons": {
+    "color": "color.png",
+    "outline": "outline.png"
+  },
+  "name": {
+    "short": "Course Companion- Configurator"
+  },
+  "description": {
+    "short": "Use this app to configure Course Companion.",
+    "full": "Use this app to configure Course Companion, which enables educators to organize learning content in a search-and-browse experience. Here, configure values for Grade, Subject, and Tag, which enable students to easily filter and find relevant learning modules and resources."
+  },
+  "composeExtensions": [
+    {
+      "botId": "<<botId>>",
+      "canUpdateConfiguration": true,
+      "commands": [
+        {
+          "id": "learnnow",
+          "type": "action",
+          "title": "Course Companion",
+          "description": "Course Companion",
+          "initialRun": true,
+          "fetchTask": true,
+          "context": [
+            "compose"
+          ]
+        }
+      ]
+    }
+  ],
+  "accentColor": "#C6F116",
+  "localizationInfo": {
+    "defaultLanguageTag": "en",
+    "additionalLanguages": [
+      {
+        "languageTag": "en-US",
+        "file": "en-US.json"
+      }
+    ]
+  },
+  "validDomains": [
+    "<<appDomain>>"
+  ],
+  "webApplicationInfo": {
+    "id": "<<botId>>",
+    "resource": "<ApplicationIdURI>"
+  }
+}

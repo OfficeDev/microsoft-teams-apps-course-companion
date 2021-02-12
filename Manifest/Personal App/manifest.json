@@ -1,0 +1,106 @@
+{
+  "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.7/MicrosoftTeams.schema.json",
+  "manifestVersion": "1.7",
+  "version": "1.0.0",
+  "id": "aaf96e58-4803-43e8-b191-a7b673a156be",
+  "packageName": "com.microsoft.teams.coursecompanion",
+  "developer": {
+    "name": "<company name>",
+    "websiteUrl": "<website url>",
+    "privacyUrl": "<website url>/privacy",
+    "termsOfUseUrl": "<website url>/termsofuse"
+  },
+  "icons": {
+    "color": "color.png",
+    "outline": "outline.png"
+  },
+  "name": {
+    "short": "Course Companion"
+  },
+  "description": {
+    "short": "Course Companion lets educators organize learning resources and modules.",
+    "full": "Course Companion lets educators organize learning resources and modules in a central place that offers a visual search-and-browse experience for students. The app makes it easy to save, share, and collaborate around learning content."
+  },
+  "composeExtensions": [
+    {
+      "botId": "<<botId>>",
+      "canUpdateConfiguration": true,
+      "commands": [
+        {
+          "id": "resource",
+          "description": "Find resources.",
+          "title": "Resources",
+          "type": "query",
+          "parameters": [
+            {
+              "name": "searchQuery",
+              "title": "Search Query",
+              "description": "Find",
+              "inputType": "text"
+            }
+          ],
+          "initialRun": true
+        },
+        {
+          "id": "learningmodule",
+          "title": "Learning modules",
+          "description": "Find learning modules.",
+          "type": "query",
+          "parameters": [
+            {
+              "name": "searchQuery",
+              "title": "Search Query",
+              "description": "Find",
+              "inputType": "text"
+            }
+          ],
+          "initialRun": true
+        }
+      ]
+    }
+  ],
+  "staticTabs": [
+    {
+      "entityId": "coursecompanion.discover",
+      "name": "Discover",
+      "contentUrl": "https://<<appDomain>>/discover",
+      "scopes": [
+        "personal"
+      ]
+    },
+    {
+      "entityId": "coursecompanion.yourlearning",
+      "name": "Your learning",
+      "contentUrl": "https://<<appDomain>>/your-learning",
+      "scopes": [
+        "personal"
+      ]
+    }
+  ],
+  "accentColor": "#C6F116",
+  "configurableTabs": [
+    {
+      "configurationUrl": "https://<<appDomain>>/configurable-tab",
+      "canUpdateConfiguration": true,
+      "scopes": [
+        "team"
+      ]
+    }
+  ],
+  "localizationInfo": {
+    "defaultLanguageTag": "en",
+    "additionalLanguages": [
+      {
+        "languageTag": "en-US",
+        "file": "en-US.json"
+      }
+    ]
+  },
+  "validDomains": [
+    "<<appDomain>>"
+  ],
+  "webApplicationInfo": {
+    "id": "<<botId>>",
+    "resource": "<ApplicationIdURI>"
+  }
+}

@@ -1,0 +1,73 @@
+﻿.default-container .notification-container {
+    box-sizing: border-box;
+    position: fixed;
+    background-color: white;
+    z-index: 1;
+    top: 0rem;
+    color: black !important;
+    box-shadow: -1px 0.3rem 0.3rem #dedddd;
+    opacity: 1 !important;
+    width: -webkit-fill-available;
+    left: 0rem;
+}
+
+.dark-container .notification-container {
+    box-sizing: border-box;
+    position: fixed;
+    z-index: 1;
+    top: 0rem;
+    background-color: white;
+    color: black !important;
+    box-shadow: -1px 0.3rem 0.3rem #605E5C;
+    width: -webkit-fill-available;
+    left: 0rem;
+}
+
+.contrast-container .notification-container {
+    box-sizing: border-box;
+    position: fixed;
+    z-index: 1;
+    top: 0rem;
+    background-color: white;
+    color: black !important;
+    box-shadow: -1px 0.3rem 0.3rem black;
+    width: -webkit-fill-available;
+    left: 0rem;
+}
+
+.notification-success {
+    position: relative;
+    overflow: hidden;
+    padding: 1.6rem;
+    height: 5rem;
+    opacity: 1 !important;
+    background-repeat: no-repeat;
+    border: none !important;
+    background-color: rgba(146, 195, 89, 0.25);
+}
+
+.notification-error {
+    position: relative;
+    overflow: hidden;
+    padding: 1.6rem;
+    height: 5rem;
+    opacity: 1 !important;
+    background-repeat: no-repeat;
+    border: none !important;
+    background-color: #F9ECEA;
+}
+
+.close-button {
+    cursor: pointer;
+    padding-right: 1rem;
+}
+
+.success-icon {
+    color: #237B4B;
+}
+
+.failure-icon {
+    color: #C4314B;
+}
+
+

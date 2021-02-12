@@ -1,0 +1,6 @@
+﻿{
+  "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.7/MicrosoftTeams.Localization.schema.json",
+  "name.short": "Course Companion- Configurator",
+  "description.short": "Use this app to configure Course Companion.",
+  "description.full": "Use this app to configure Course Companion, which enables educators to organize learning content in a search-and-browse experience. Here, configure values for Grade, Subject, and Tag, which enable students to easily filter and find relevant learning modules and resources."
+}

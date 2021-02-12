@@ -1,0 +1,64 @@
+﻿.dark-container .tags-label-wrapper {
+    background-color: #484644 !important;
+    color: #ffffff !important;
+}
+
+.tags-label-wrapper {
+    padding-top: 0.8rem !important;
+    padding-bottom: 0.8rem !important;
+    padding-left: 1.3rem !important;
+    padding-right: 1.3rem !important;
+    margin-top: 1rem !important;
+    height: 2.8rem !important;
+    margin-right: 0.5rem !important;
+}
+
+.tag-text-form {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 15rem;
+    white-space: nowrap;
+    font-size: 1.4rem !important;
+    padding-right: 0.5rem;
+}
+
+.tag-text-card {
+    max-width: 7rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 1.4rem !important;
+    color: #484644 !important;
+}
+
+.dark-container .tag-text-card {
+    max-width: 7rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 1.4rem !important;
+    color: #fff !important;
+}
+
+.close-icon-tag {
+    padding-top: 0.2rem;
+    width: 1rem;
+    cursor: pointer;
+}
+
+.dialog-ui {
+    max-width: 40%;
+}
+
+@media only screen and (min-width: 651px) and (max-width: 700px) {
+    .tags-label-wrapper {
+        padding-left: 0.6rem !important;
+        padding-right: 0.6rem !important;
+        margin-right: 0.6rem !important;
+    }
+
+    .dark-container .tags-label-wrapper {
+        background-color: #484644 !important;
+        color: #ffffff !important;
+    }
+}

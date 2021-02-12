@@ -1,0 +1,253 @@
+﻿.dark-container .card-bg {
+    background-color: #323131;
+    position: relative;
+    width: 330px !important;
+    height: 47rem !important;
+    border-radius: 0.25rem;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.10);
+}
+
+.high-contrast-container .card-bg {
+    background-color: #000;
+    position: relative;
+    width: 330px !important;
+    height: 47rem !important;
+    border-radius: 0.25rem;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.10);
+}
+
+.default-container .card-bg {
+    background-color: #fff;
+    position: relative;
+    width: 330px !important;
+    height: 47rem !important;
+    border-radius: 0.25rem;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.10);
+}
+
+.card-thumbnail {
+    width: 350px !important;
+    height: 20rem !important;
+    border-top-right-radius: 0.5rem;
+    border-top-left-radius: 0.5rem;
+}
+
+.card-body {
+    height: 18rem;
+    padding: 0 !important;
+}
+
+.title-flex {
+    max-height: 5rem;
+}
+
+.content-flex {
+    height: 11rem;
+    overflow: hidden;
+    padding: 1.5rem;
+}
+
+.content-text {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 7;
+    -webkit-box-orient: vertical;
+}
+
+.footer-flex {
+    width: 100%;
+    bottom: 1rem;
+    height: 7.5rem;
+    position: relative;
+    display: block;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+.scroll-view {
+    margin-top: 1rem;
+    height: 90vh;
+    overflow-Y: auto;
+    overflow-X: auto;
+    bottom: 1px;
+}
+
+.grid-column {
+    padding: 0.66rem;
+}
+
+.card-subtitle-subject {
+    text-align: left;
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding-right: 0.5rem;
+    padding-top: 0.2rem;
+    letter-spacing: 0.06rem !important;
+}
+
+.card-subtitle-grade {
+    text-align: left;
+    font-size: 1.2rem;
+    padding-left: 0.5rem;
+    padding-top: 0.2rem;
+    letter-spacing: 0.06rem !important;
+}
+
+.card-title-resource {
+    font-size: 1.8rem !important;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 22rem;
+}
+
+.tab-card-header {
+    padding-bottom: 0rem !important;
+    padding-left: 1.5rem !important;
+    padding-right: 1.5rem !important;
+}
+
+.dark-container .name-label {
+    width: max-content;
+    padding-top: 0.7rem;
+    padding-left: 1.5rem;
+    background-color: #323131;
+    border-bottom-right-radius: 3rem;
+    border-top-right-radius: 3rem;
+    padding-right: 2rem;
+}
+
+.high-contrast-container .name-label {
+    width: max-content;
+    padding-top: 0.7rem;
+    padding-left: 1.5rem;
+    background-color: #000;
+    border-bottom-right-radius: 3rem;
+    border-top-right-radius: 3rem;
+    padding-right: 2rem;
+}
+
+.name-label {
+    width: max-content;
+    padding-top: 0.6rem;
+    padding-left: 1.5rem;
+    background-color: #FAF9F8;
+    border-bottom-right-radius: 3rem;
+    border-top-right-radius: 3rem;
+    padding-right: 2rem;
+    margin-left: -1rem;
+}
+
+.like-text {
+    font-size: 1.2rem !important;
+    padding-right: 0.5rem;
+    padding-top: 0.4rem;
+}
+
+.more-pop-up {
+    left: 6px !important;
+    top: -10px !important;
+}
+
+.cursor-pointer {
+    cursor: pointer !important;
+}
+
+.card-image {
+    width: 35rem !important;
+    height: 21.2rem !important;
+    border-top-right-radius: 0.5rem;
+    border-top-left-radius: 0.5rem;
+}
+
+.tags-card {
+    height: 5rem;
+}
+
+.icon-color {
+    color: rgb(98, 100, 167) !important;
+}
+
+.vote-icon-filled {
+    color: #6264A7;
+    cursor: pointer;
+    padding-right: 1rem !important;
+}
+
+.vote-icon {
+    padding-right: 1rem !important;
+}
+
+    .vote-icon:hover {
+        color: #6264A7;
+    }
+
+.popup-list-icon {
+    padding-right: 1.2rem;
+}
+
+.tile-render {
+    grid-gap: 2rem;
+}
+
+.config-tab-scroll {
+    height: 49rem !important;
+    overflow-y: auto;
+}
+
+.tile-text-overflow {
+    max-width: 7.5rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+/*If the screen zoom level is 50% or less */
+@media (min-width: 2500px) {
+    .tile-render {
+        grid-template-columns: repeat(5, 1fr) !important;
+    }
+}
+
+/* If the screen zoom level is 80% or less */
+@media (min-width: 1450px ) and (max-width:2499px) {
+    .tile-render {
+        grid-template-columns: repeat(4, 1fr) !important;
+    }
+}
+
+/* If the screen zoom level is between 90% to 110% */
+@media (max-width: 1449px ) and (min-width: 1090px) {
+    .tile-render {
+        grid-template-columns: repeat(3, 1fr) !important;
+    }
+}
+
+/* If the screen zoom level is 125% or more */
+@media (max-width: 1090px) {
+    .tile-render {
+        grid-template-columns: repeat(2, 1fr) !important;
+    }
+}
+
+/* For mobile view */
+@media (max-width: 800px) {
+    .tile-render {
+        grid-template-columns: repeat(1, 0fr) !important;
+    }
+    .delete-dialog-mobile {
+        width: 68vw !important;
+    }
+}
+
+@media (max-width: 1250px) {
+
+    .scroll-view {
+        margin-top: 1rem;
+        height: 90vh;
+        overflow-Y: auto;
+        overflow-X: hidden;
+        bottom: 1px;
+    }
+}

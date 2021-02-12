@@ -1,0 +1,392 @@
+﻿.container-tab {
+    padding-left: 3.3rem;
+    padding-top: 1rem;
+}
+
+.dark-container .container-tab {
+    height: 100vh;
+    padding-left: 3.3rem;
+    padding-top: 1rem;
+}
+
+.high-contrast-container .container-tab {
+    height: 100vh;
+    padding-left: 3.3rem;
+    padding-top: 1rem;
+}
+
+.create-content-main {
+    max-height: 42.5rem !important;
+    overflow-y: scroll;
+    width: 57rem;
+}
+
+.preview-container-tab {
+    height: 96vh;
+    padding-left: 3.3rem;
+    padding-top: 1rem;
+    width: 100vw;
+}
+
+.dark-container .preview-container-tab {
+    height: 100vh;
+    padding-left: 3.3rem;
+    padding-top: 1rem;
+    width: 100vw;
+}
+
+.high-contrast-container .preview-container-tab {
+    height: 100vh;
+    padding-left: 3.3rem;
+    padding-top: 1rem;
+    width: 100vw;
+}
+
+.preview-container {
+    height: 96vh;
+    padding-left: 3.3rem;
+    padding-top: 1rem;
+    width: 100vw;
+}
+
+.high-contrast-container .preview-container {
+    height: 100vh;
+    padding-left: 3.3rem;
+    padding-top: 1rem;
+    width: 100vw;
+}
+
+.dark-container .preview-container {
+    height: 100vh;
+    padding-left: 3.3rem;
+    padding-top: 1rem;
+    width: 100vw;
+}
+
+.preview-content-main {
+    max-height: 42.5rem !important;
+    overflow-y: scroll;
+    width: 550px;
+}
+
+.create-sub-div {
+    padding-right: 1.2rem !important;
+}
+
+.create-sub-div-resource {
+    padding-right: 1.2rem;
+}
+
+.input-padding {
+    padding-bottom: 1.6rem;
+    padding-top: 0.5rem;
+}
+
+.input-padding-description {
+    margin-top: 0.5rem !important;
+    margin-bottom: 1rem !important;
+    padding-bottom: 4rem !important;
+    overflow-wrap: anywhere !important;
+}
+
+.input-padding-module {
+    padding-bottom: 1.6rem;
+    padding-top: 0.5rem;
+}
+
+.input-padding-description-module {
+    margin-top: 0.5rem !important;
+    margin-bottom: 1rem !important;
+    padding-bottom: 4rem !important;
+}
+
+.input-padding-tags {
+    padding-top: 0.5rem !important;
+}
+
+.preview-input-padding-link {
+    padding-top: 0.5rem !important;
+}
+
+.tab-footer {
+    position: absolute;
+    width: 90vw;
+    bottom: 3rem;
+}
+
+.hover-effect:hover {
+    cursor: pointer;
+}
+
+.add-icon {
+    margin-left: -5rem;
+    padding: 0.8rem;
+}
+
+.tags-wrapper {
+    position: relative;
+}
+
+.input-padding .subject-input {
+    width: 28.4rem !important;
+}
+
+.input-padding .grade-input {
+    width: 26.4rem !important;
+}
+
+.or-test-padding {
+    padding-top: 0.5rem;
+    padding-right: 0.8rem;
+}
+
+.input-padding-attachment {
+    padding-bottom: 1rem;
+    height: 6rem !important;
+    padding-top: 0rem !important;
+}
+
+.grade-text-padding {
+    padding-left: 0.5rem;
+}
+
+.file-attachment-width {
+    width: 100% !important;
+}
+
+.file-attachment-width .ui-attachment__header
+{
+    overflow: hidden;
+    text-overflow:ellipsis;
+    max-width: 25rem;
+}
+
+.file-attachment-width-preview {
+    width: 100% !important;
+    overflow-wrap: anywhere;
+}
+
+.attach-file-button {
+    height: 3rem;
+    padding-left: 1rem;
+}
+
+.file-name-icon {
+    margin-left: 0.5rem;
+    margin-right: 1rem;
+}
+
+.preview-card-image {
+    width: 34.7rem !important;
+    height: 21.3rem !important;
+}
+
+.subtitle-preview-padding {
+    padding-top: 0.5rem;
+    padding-bottom: 0.8rem;
+}
+
+.preview-input-padding {
+    padding-top: 1rem;
+    line-break: auto;
+}
+
+.preview-input-padding-attachment {
+    padding-top: 1.5rem;
+}
+
+.next-button {
+    min-width: 9.6rem !important;
+}
+
+.tab-footer-preview {
+    position: absolute;
+    width: 87vw;
+    bottom: 3rem;
+    left: 0.4rem;
+}
+
+.tab-footer-preview-edit {
+    position: absolute;
+    width: 87.5vw;
+    bottom: 3rem;
+}
+
+.like-button {
+    margin-right: 2rem !important;
+}
+
+.preview-sub-div {
+    padding-right: 1.6rem !important;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+
+.back-preview-button {
+    margin-left: -2.4rem !important;
+}
+
+.grade-error-text {
+    margin-right: 1.2rem;
+}
+
+.back-preview-button .jm {
+    margin-right: 0.8rem !important;
+}
+
+.tab-footer-preview-resource {
+    position: absolute;
+    width: 90vw;
+    bottom: 3rem;
+    left: 3.5rem;
+}
+
+.create-sub-div-add {
+    padding-right: 2.5rem;
+}
+
+
+
+@media (min-height: 90vh) {
+    .preview-content-main {
+        max-height: 83vh !important;
+        overflow-y: scroll;
+    }
+
+    .create-content-main {
+        max-height: 81.5vh !important;
+        overflow-y: scroll;
+    }
+
+    .create-sub-div-resource {
+        padding-right: 1.2rem !important;
+    }
+
+
+    .subject-input {
+        width: 27rem !important;
+    }
+}
+
+@media (min-height: 600px) {
+   
+    .input-tags-module {
+        padding-right: 0rem;
+    }
+
+    .tab-footer {
+        width: 85vw !important;
+    }
+
+    .preview-card-image {
+        width: 28.7rem !important;
+        height: 21.3rem !important;
+    }
+
+    .attachment-text-overflow .ui-attachment__header {
+        text-overflow: ellipsis;
+        max-width: 10rem;
+        overflow: hidden;
+        white-space: nowrap;
+    }
+
+    .file-attachment-width .ui-attachment__header {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        max-width: 6rem;
+    }
+
+    .file-attachment-width-preview {
+        width: 100% !important;
+        overflow-wrap: anywhere;
+    }
+}
+
+.subject-text {
+    margin-left: -0.5rem;
+}
+
+.new-module {
+    margin-bottom: 1.6rem;
+    margin-top: 1.5rem;
+}
+
+.add-form-button-preview {
+    position: fixed;
+    width: 95%;
+    left: 48rem;
+    bottom: 4rem;
+}
+
+.error-message-text {
+    margin-right: 2rem;
+}
+
+.like-button-preview {
+    margin-right: 0.8rem;
+}
+
+.container-tab-lm {
+    padding-left: 3.3rem;
+    padding-top: 2rem;
+}
+
+.dark-container .container-tab-lm {
+    padding-left: 3.3rem;
+    height: 100vh;
+    padding-top: 2rem;
+}
+
+.high-contrast-container .container-tab-lm {
+    padding-left: 3.3rem;
+    height: 100vh;
+    padding-top: 2rem;
+}
+
+.link-truncate {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.preview-title {
+    overflow-wrap: anywhere;
+}
+
+.back-preview-lm {
+    margin-left: -2.6rem;
+}
+
+.back-image-button-create {
+    margin-left: -2rem;
+}
+
+.file-format-validation {
+    padding-bottom: 0.3rem !important;
+}
+
+.dropdown-suggestion-box .ui-dropdown__items-list {
+    max-height: 15rem !important;
+}
+
+.add-lm-tab-footer-preview {
+    position: absolute;
+    width: 91vw;
+    bottom: 3rem;
+}
+
+.attachment-text-overflow .ui-attachment__header {
+    text-overflow: ellipsis;
+    max-width: 24rem;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.tag-padding
+{
+    padding-bottom:0.5rem;
+}
+
