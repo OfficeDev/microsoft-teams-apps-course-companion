@@ -1,4 +1,4 @@
-﻿---
+---
 page_type: sample
 languages:
 - csharp
@@ -25,10 +25,9 @@ Using the Course Companion app, educators can easily create, organize and share 
 
 ## User personas
 
-### Admins
- - Set up the app for use.
+### Configurators
+ - People who need to maintain configurations like tags, grades, subjects, etc. at an organizational level should be given access to Course Companion-Configurator app and they will set up the app for use.
  - Configure settings like grades, subjects and tags which will be used by Educators to create learning resources. 
- - Manage all the resources and learning modules created by educators.
  
 ### Educators
 - Create learning resources to supplement course learning material.
@@ -41,6 +40,9 @@ Using the Course Companion app, educators can easily create, organize and share 
 - Discover relevant content based on curriculum or interest using filters available on the tab.
 - Bookmark content for self-paced learning across subjects.
 - Share resources or learning modules using a messaging extension. 
+
+### Admins
+- People with Admin permissions will have the ability to manage i.e. edit or delete resources and learning modules created by educators.
 
 Simplified workflow of the app:
 - Admins of the app will configure the grades, subjects, and tags which can be used by educators to create learning resources.
@@ -58,19 +60,19 @@ Here are some of the workflows in action:
 
 2. **Learning Modules**: Students will be able to view related resources in learning modules which are structured to provide a clear path of learning of relevant topics.
 ![Learning module details](https://github.com/OfficeDev/microsoft-teams-apps-course-companion/wiki/Images/LearningModuleDetails.png)
-[[/Images/LearningModuleDetails.png|Learning module details]]
+
 
 3. **Channel Tab**: Educators will be able to configure a channel tab by selecting a learning module for focused learning on relevant topics.
 ![Channel tab](https://github.com/OfficeDev/microsoft-teams-apps-course-companion/wiki/Images/ChannelTab.png)
-[[/Images/ChannelTab.png|Channel tab]]
+
 
 4. **Your learning**: Students will be able to access the bookmarked content in Your learning tab.
 ![Your learning tab](https://github.com/OfficeDev/microsoft-teams-apps-course-companion/wiki/Images/Yourlearning.png)
-[[/Images/Yourlearning.png|Your learning tab]]
+
 
 5. **Messaging extension**: Educators and students will be able to use the messaging extension to share a resource or learning module.
 ![Messaging extension](https://github.com/OfficeDev/microsoft-teams-apps-course-companion/wiki/Images/MessagingExtension.png)
-[[/Images/MessagingExtension.png|Messaging extension]]
+
 
 
 
@@ -97,16 +99,7 @@ This app template is provided under the [MIT License](https://github.com/OfficeD
 
 Begin with the [Getting started guide](https://github.com/OfficeDev/microsoft-teams-apps-course-companion/wiki/Getting-started) to read about what the app does and how it works.
 
-When you're ready to try out Building Access app, or to use it in your own organization, follow the steps in the [Deployment guide](https://github.com/OfficeDev/microsoft-teams-apps-course-companion/wiki/Deployment-guide). The instructions cover:
-
--   Creating a location for your data
--   Running a Power Automate to create the SharePoint lists
--   Importing and configuring the Building Access App
--   Importing and configuring the Building Admin App
--   Importing and configuring the Building Security App
--   Configuring the App settings and creating initial content
--   Deploying the App to Teams
--   Configuring the PowerBI Dashboard
+When you're ready to try out Building Access app, or to use it in your own organization, follow the steps in the [Deployment guide](https://github.com/OfficeDev/microsoft-teams-apps-course-companion/wiki/Deployment-guide). 
 
 ## Contributing
 
