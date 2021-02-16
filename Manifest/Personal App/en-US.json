@@ -1,0 +1,14 @@
+﻿{
+  "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.7/MicrosoftTeams.Localization.schema.json",
+  "name.short": "Course Companion",
+  "description.short": "Course Companion lets educators organize learning resources and modules.",
+  "description.full": "Course Companion lets educators organize learning resources and modules in a central place that offers a visual search-and-browse experience for students. The app makes it easy to save, share, and collaborate around learning content.",
+  "staticTabs[0].name": "Discover",
+  "staticTabs[1].name": "Your learning",
+  "composeExtensions[0].commands[0].title": "Resources",
+  "composeExtensions[0].commands[0].description": "Find resources.",
+  "composeExtensions[0].commands[0].parameters[0].description": "Find",
+  "composeExtensions[0].commands[1].title": "Learning modules",
+  "composeExtensions[0].commands[1].description": "Find learning modules.",
+  "composeExtensions[0].commands[1].parameters[0].description": "Find"
+}

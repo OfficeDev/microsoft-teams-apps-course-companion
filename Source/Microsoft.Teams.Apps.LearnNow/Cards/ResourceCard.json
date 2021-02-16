@@ -1,0 +1,149 @@
+﻿{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "body": [
+    {
+      "columns": [
+        {
+          "type": "Column",
+          "items": [
+            {
+              "type": "Image",
+              "url": "${ImageUrl}",
+              "minHeight": "83px",
+              "width": "134px"
+            }
+          ],
+          "separator": true,
+          "spacing": "small",
+          "width": 1
+        },
+        {
+          "type": "Column",
+          "width": 2,
+          "items": [
+            {
+              "type": "TextBlock",
+              "text": "${Title}",
+              "wrap": true,
+              "fontType": "Default",
+              "weight": "bolder",
+              "size": "large"
+            },
+            {
+              "type": "TextBlock",
+              "text": "${Description}",
+              "wrap": true,
+              "maxLines": 5,
+              "spacing": "None"
+            }
+          ]
+        }
+      ],
+      "type": "ColumnSet"
+    },
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "type": "Column",
+          "width": "85px",
+          "items": [
+            {
+              "type": "TextBlock",
+              "text": "${GradeLabel}",
+              "wrap": true,
+              "weight": "Bolder"
+            }
+          ]
+        },
+        {
+          "type": "Column",
+          "width": "stretch",
+          "items": [
+            {
+              "type": "TextBlock",
+              "text": "${GradeName}",
+              "wrap": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "columns": [
+        {
+          "type": "Column",
+          "width": "85px",
+          "items": [
+            {
+              "type": "TextBlock",
+              "text": "${SubjectLabel}",
+              "wrap": true,
+              "weight": "Bolder"
+            }
+          ]
+        },
+        {
+          "type": "Column",
+          "width": "stretch",
+          "items": [
+            {
+              "type": "TextBlock",
+              "text": "${SubjectName}",
+              "wrap": true
+            }
+          ]
+        }
+      ],
+      "type": "ColumnSet"
+    },
+    {
+      "columns": [
+        {
+          "type": "Column",
+          "width": "85px",
+          "items": [
+            {
+              "type": "TextBlock",
+              "text": "${TagLabel}",
+              "wrap": true,
+              "weight": "Bolder"
+            }
+          ]
+        },
+        {
+          "type": "Column",
+          "width": "stretch",
+          "items": [
+            {
+              "type": "TextBlock",
+              "text": "${Tags}",
+              "wrap": true
+            }
+          ]
+        }
+      ],
+      "type": "ColumnSet",
+      "isVisible": "${IsTagVisible}"
+    },
+    {
+      "type": "ActionSet",
+      "actions": [
+        {
+          "type": "Action.Submit",
+          "title": "${ViewDetailLabel}",
+          "ignoreInputValidation": true,
+          "id": "${Id}",
+          "data": {
+            "data": "${TaskModuleData}",
+            "msteams": {
+              "type": "task/fetch"
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "type": "AdaptiveCard",
+  "version": "1.3"
+}

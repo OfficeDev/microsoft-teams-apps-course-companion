@@ -1,0 +1,268 @@
+﻿.subject-heading {
+    font-size: 1.8rem;
+    overflow-wrap: anywhere;
+}
+
+.sub-detail {
+    font-size: 1.4rem;
+}
+
+.sub-description {
+    font-size: 1.2rem;
+    padding-top: 2.4rem;
+    width: 54rem !important;
+    overflow-wrap: anywhere;
+}
+
+.resource-content {
+    padding-left: 3.2rem;
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+.table-div {
+    margin-top: 1.2rem;
+    margin-right: 3rem;
+}
+
+.grade-name {
+    color: rgba(37,36,35,1);
+    padding-left: 0.3rem;
+    font-size: 1.2rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 10rem;
+}
+
+.dark-container .grade-name {
+    padding-left: 0.3rem;
+    font-size: 1.2rem;
+    color: #fff;
+}
+
+.high-contrast-container .grade-name {
+    padding-left: 0.3rem;
+    font-size: 1.2rem;
+    color: #fff;
+}
+
+.sub-grade {
+    font-size: 1.4rem;
+}
+
+.resource-title {
+    padding-left: 0.92rem;
+    font-size: 1.4rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 20rem;
+}
+
+.subject-name {
+    padding-left: 0.92rem;
+    font-size: 1.2rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 10rem;
+}
+
+.resource-description {
+    font-size: 1.2rem;
+    color: rgba(96,94,92,1);
+    height: 5rem;
+    padding-left: 0rem;
+    margin-top: 0.8rem;
+    width: 28.5rem;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.high-contrast-container .resource-description {
+    font-size: 1.2rem;
+    color: #fff;
+    height: 5rem;
+    padding-left: 0rem;
+    margin-top: 0.8rem;
+    width: 30.5rem;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.dark-container .resource-description {
+    font-size: 1.2rem;
+    color: #fff;
+    height: 5rem;
+    padding-left: 0rem;
+    margin-top: 0.8rem;
+    width: 30.5rem;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.preview-file-icon {
+    padding-left: 0rem;
+}
+
+.footer-flex-lm-preview {
+    position: absolute;
+    bottom: 5rem;
+    right: 3rem;
+}
+
+.high-contrast-container .resource-description-table {
+    font-size: 1.2rem;
+    color: #fff;
+    height: 5rem;
+    padding-left: 0.8rem;
+    margin-top: 0.8rem;
+    width: 32rem;
+    overflow: hidden;
+}
+
+.dark-container .resource-description-table {
+    font-size: 1.2rem;
+    color: #fff;
+    height: 5rem;
+    padding-left: 0.8rem;
+    margin-top: 0.8rem;
+    width: 32rem;
+    overflow: hidden;
+}
+
+.resource-description-table {
+    font-size: 1.2rem;
+    color: rgba(96,94,92,1);
+    height: 3.5rem;
+    padding-left: 0.8rem;
+    margin-top: 0.8rem;
+    max-width: 30rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+.preview-file-icon-table {
+    padding-left: 1rem;
+}
+
+.back-button-preview {
+    margin-left: 0.5rem;
+    padding-left: 1.2rem;
+}
+
+    .back-button-preview .it {
+        margin-right: 0.6rem !important;
+    }
+
+.back-button-preview-resource {
+    margin-left: 1rem;
+}
+
+.table-checkbox-cell-lm {
+    max-width: 3rem;
+}
+
+    .table-checkbox-cell-lm .ui-checkbox {
+        margin-left: -3.2rem;
+    }
+
+.resource-content-edit {
+    padding-left: 0rem;
+    font-size: 1.4rem;
+    margin-bottom: 0.9rem;
+    font-weight: 600;
+    margin-right: 1rem;
+}
+
+.next-button-preview {
+    left: 4.2rem !important;
+}
+
+.search-container-edit-preview {
+    margin-left: 3rem;
+    margin-top: 2rem;
+}
+
+.high-contrast-container .hu {
+    border-bottom-color: #000;
+}
+
+.high-contrast-container .ik {
+    box-shadow: none !important;
+}
+
+.file-image-width {
+    width: 3.6rem;
+}
+
+.column-style-preview {
+    margin-left: -6rem;
+    padding-top: 2rem;
+}
+
+.edit-preview-resource-table
+{
+    padding-left: 3rem;
+}
+
+.dark-container .ui-table__row {
+    box-shadow: 0 5px 12px 5px #201f1f;
+}
+
+@media (max-width: 550px) {
+    .sub-description {
+        max-width: 32rem !important;
+    }
+
+    .resource-description {
+        max-width: 20rem;
+        height: 6rem;
+    }
+
+    .resource-description-table {
+        font-size: 1.2rem;
+        color: rgba(96,94,92,1);
+        padding-left: 0.8rem;
+        margin-top: 0.8rem;
+        max-width: 19rem;
+        height: 6rem;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    .resource-title {
+        max-width: 12rem;
+    }
+
+    .table-div-resource .resource-description-table {
+        max-width: 18rem;
+        height: 6rem;
+    }
+
+    .table-div-resource .resource-title {
+        max-width: 14rem;
+    }
+
+    .column-style-preview {
+        margin-left: -3rem !important;
+        padding-top: 0rem !important;
+    }
+
+    .subject-name {
+        max-width: 6rem;
+        padding-right: 0.3rem;
+    }
+    .grade-name {
+        padding-left: 0.4rem;
+        max-width: 5rem;
+    }
+}

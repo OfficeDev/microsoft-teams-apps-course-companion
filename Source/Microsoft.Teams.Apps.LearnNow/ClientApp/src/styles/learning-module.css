@@ -1,0 +1,197 @@
+.row-style {
+    height: 16rem;
+}
+
+.checkbox-style {
+    padding-top: 3rem;
+}
+
+.search-container {
+    margin-left: 3rem;
+    margin-top: 2rem;
+    margin-right:3rem;
+}
+
+.create-content-lm {
+    max-height: 42.5rem !important;
+    overflow-y: scroll;
+}
+
+.search-container-add-lm {
+    margin-left: 3rem;
+    margin-top: 2rem;
+    margin-right: 1rem;
+}
+
+.image-style {
+    margin-bottom: 6rem;
+    height: 109px;
+    width: 178px;
+}
+
+.image-style-preview-resource {
+    margin-left: -1rem;
+    height: 10.9rem !important;
+    width: 18.63rem !important;
+}
+
+.image-module-style {
+    width: 17.8rem;
+    height: 10.9rem !important;
+    border-radius: 0.3rem 0rem 0rem 0.3rem;
+    margin-left: -3rem;
+}
+
+.add-form-button {
+    position: fixed;
+    width: 95%;
+    left: 45.2rem;
+    bottom: 3.2rem;
+}
+
+.add-module-container {
+    overflow-y: auto;
+    overflow-x: hidden;
+    height: 43.8rem;
+    width: auto;
+}
+
+.dark-container .add-module-container {
+    overflow-y: auto;
+    overflow-x: hidden;
+    height: 52.6rem;
+    width: auto;
+}
+
+.high-contrast-container .add-module-container {
+    overflow-y: auto;
+    overflow-x: hidden;
+    height: 52.6rem;
+    width: auto;
+}
+
+.column-style {
+    padding-top:1rem;
+    margin-left: -7rem;
+}
+
+.create-module-container {
+    margin-left: 3.2rem;
+    margin-top: 1rem;
+    margin-right: 2.4rem;
+}
+
+.add-module-header {
+    margin-bottom: 2rem;
+    margin-top: 2.8rem;
+}
+
+.add-module-button-container {
+    position: fixed;
+    width: 95%;
+    left: 1.2rem;
+    bottom: 32px;
+    padding-right: 8px;
+}
+
+.add-module-description {
+    height: 10rem !important;
+}
+
+.add-lm-search {
+    width: 50rem;
+}
+
+.add-module-grade {
+    width: 26rem !important;
+    display: inline-table;
+    font-weight: normal;
+}
+
+.add-module-input-padding {
+    padding-top: 0.8rem !important;
+    padding-bottom: 1.5rem;
+}
+
+.create-new-button {
+    background-color: #fff;
+    color: #000;
+}
+
+.resource-info {
+    padding-left: 1.5rem;
+}
+
+.lm-resource-table {
+    padding-top: 1.5rem !important;
+}
+
+.info-icon {
+    padding-bottom: 0.2rem !important;
+}
+
+.dark-container .in {
+    box-shadow: #201F1F 0px 5px 12px 5px;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.table-div-resource {
+    padding-top: 1rem !important;
+    padding-left: 0.5rem;
+}
+
+.resource-validation {
+    margin-top: 13rem;
+    margin-left: 3.5rem;
+}
+
+.info-icon {
+    padding-bottom: .2rem !important;
+    padding-right: 1rem;
+}
+
+.add-lm-module-container {
+    overflow-y: auto;
+    overflow-x: hidden;
+    height: 43.8rem;
+    width: auto;
+    padding-right: 1.8rem;
+}
+
+@media (max-width: 550px) {
+    .image-style-preview-resource {
+        width: 16rem !important;
+    }
+
+    .column-style {
+        margin-left: -1rem !important;
+        padding-top:2rem;
+    }
+
+    .image-module-style {
+        width: 13rem !important;
+    }
+
+    .add-lm-search {
+        width: 26rem;
+    }
+
+    .add-form-button {
+        left: 25.8rem;
+    }
+
+    .table-div-resource .column-style {
+        margin-left: -2rem !important;
+    }
+    
+}
+
+.learning-module-table-container{
+    position: initial;
+    margin-top: 3rem;
+    margin-right: 4rem;
+}
+

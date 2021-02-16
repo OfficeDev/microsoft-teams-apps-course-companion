@@ -1,0 +1,83 @@
+﻿.content-items-wrapper {
+    width: 25rem;
+    margin: 0.5rem;
+}
+
+.radio-popup-content {
+    width: 19rem !important;
+}
+
+.content-items-body {
+    width: 25rem;
+    max-height: 18rem;
+    margin-top: 0.5rem;
+    overflow-y: auto;
+    margin-bottom:2rem;
+}
+
+.checkbox-content-width {
+    width: auto;
+    vertical-align: "center";
+}
+
+.content-items-headerfooter {
+    width: 25rem;
+    height: 3rem;
+}
+
+.filter-popup-menu-divider {
+    margin-top: 1rem;
+}
+
+.clear-button {
+    margin-top: 0.5rem;
+    margin-left: 18.5rem;
+}
+
+    .clear-button div {
+        margin-right: 0.5rem;
+        margin-top: 0.09rem;
+    }
+
+.dark-container .gray-background {
+    background-color: #3b3a39 !important;
+    color: white !important;
+}
+
+.high-contrast-container .gray-background {
+    background-color: black !important;
+    color: yellow !important;
+}
+
+.default-container .gray-background {
+    background-color: #E1DFDD !important;
+    color: #6264A7 !important;
+}
+
+.no-background {
+    background-color: none;
+}
+
+.checkbox-wrapper-padding {
+    padding-bottom: 0.5rem;
+    padding-left: 0.2rem !important;
+}
+
+.avatar-image-margin {
+    margin-right: 0.8rem;
+}
+
+.author-name {
+    margin-top: 0.5rem;
+}
+
+.checkbox-wrapper {
+    padding-left: 0rem !important;
+}
+
+@media only screen and (max-width: 750px) {
+    .ui-button__content {
+        display: contents;
+        padding: 1rem !important;
+    }
+}

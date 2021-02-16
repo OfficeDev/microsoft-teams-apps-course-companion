@@ -1,0 +1,188 @@
+﻿.dark-container .learning-module-card .card-bg {
+    background-color: #323131;
+    position: relative;
+    width: 100% !important;
+    height: 47rem !important;
+    border-radius: 0.25rem;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.10);
+}
+
+.high-contrast-container .learning-module-card .card-bg {
+    background-color: #000;
+    position: relative;
+    width: 100% !important;
+    height: 47rem !important;
+    border-radius: 0.25rem;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.10);
+}
+
+.default-container .learning-module-card .card-bg {
+    background-color: #fff;
+    position: relative;
+    width: 100% !important;
+    height: 47rem !important;
+    border-radius: 0.25rem;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.10);
+}
+.card-thumbnail {
+    width: 100%;
+    height: 20rem !important;
+    border-top-right-radius: 0.5rem;
+    border-top-left-radius: 0.5rem;
+}
+
+.card-body {
+    height: 18rem;
+    padding: 0 !important;
+}
+
+.title-flex {
+    max-height: 5rem;
+}
+.content-flex {
+    height: 11rem;
+    overflow: hidden;
+    padding: 1.5rem;
+}
+
+.content-text {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 7;
+    -webkit-box-orient: vertical;
+}
+.learning-module-card .footer-flex {
+    width: 100%;
+    bottom: 1rem !important;
+    height: 7.5rem;
+    position: relative;
+    display: block;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+.scroll-view {
+    margin-top: 1rem;
+    height: 90vh;
+    overflow-Y: auto;
+    overflow-X: hidden;
+    bottom: 1px;
+}
+
+.grid-column {
+    padding: 0.66rem;
+}
+.card-subtitle-subject {
+    text-align: left;
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding-right: 1rem;
+    padding-top: 0.2rem;
+}
+
+.card-subtitle-module-bold {
+    text-align: left;
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding-top: 0.2rem;
+}
+
+.card-subtitle-module-light {
+    text-align: left;
+    font-size: 1.2rem;
+    padding-left: 1rem;
+    padding-top: 0.2rem;
+}
+.card-pill {
+    background: #F3F2F1;
+    border-radius: 14px;
+    padding-left: 1.3rem;
+    padding-right: 1.3rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    font-size: 1.2rem;
+    color: #605E5C;
+}
+.dark-container .card-pill {
+    background: #323131;
+    border-radius: 14px;
+    padding-left: 1.3rem;
+    padding-right: 1.3rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    font-size: 1.2rem;
+}
+.high-contrast-container .card-pill {
+    background: #000;
+    border-radius: 14px;
+    padding-left: 1.3rem;
+    padding-right: 1.3rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    font-size: 1.2rem;
+}
+.card-subtitle-grade {
+    text-align: left;
+    font-size: 1.2rem;
+    padding-left: 1rem;
+    padding-top: 0.2rem;
+}
+.card-title {
+    font-size: 1.8rem !important;
+    overflow-wrap: anywhere;
+}
+.tab-card-header {
+    padding-bottom: 0rem !important;
+    padding-left: 1.5rem !important;
+    padding-right: 1.5rem !important;
+    padding-top:1rem !important;
+}
+.name-label {
+    padding-top: 0.7rem;
+}
+.like-text {
+    font-size: 1.2rem !important;
+    padding-right: 0.5rem;
+    padding-top: 0.4rem;
+}
+.more-pop-up {
+    left: 6px !important;
+    top: -10px !important;
+}
+
+.cursor-pointer {
+    cursor: pointer !important;
+}
+
+.card-image {
+    width: 39.8rem !important;
+    height: 21.2rem !important;
+    border-top-right-radius: 0.5rem;
+    border-top-left-radius: 0.5rem;
+}
+
+.tags-card
+{
+    height: 5rem;
+}
+
+.icon-color {
+    color: rgb(98, 100, 167) !important;
+}
+
+.vote-icon-filled {
+    color: #6264A7;
+    cursor: pointer;
+}
+
+vote-icon:hover {
+    color: #6264A7;
+}
+
+.popup-list-icon {
+    padding-right: 1.2rem;
+}
+.learning-module-card{
+    width:inherit;
+}

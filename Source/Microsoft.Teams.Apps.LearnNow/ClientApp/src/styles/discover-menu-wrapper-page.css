@@ -1,0 +1,185 @@
+.Menu-item {
+    height: 3rem;
+    width: fit-content;
+    border: 0.2rem solid #6264A7 !important;
+}
+
+.default-container .container-subdiv-myprojects-yourlearning .Menu-item .ui-menu__item__wrapper {
+    margin-right: 0rem;
+    box-shadow :rgb(225, 223, 221)  0px 0px 0px 0px inset !important;
+}
+
+.default-container .container-subdiv-myprojects-yourlearning .Menu-item {
+    margin-right: -0.2rem;
+}
+
+.container-subdiv-myprojects-yourlearning .Menu-item .ui-menu__item {
+    padding-top: 0.5rem;
+}
+
+.default-container .container-subdiv-myprojects-discover .Menu-item .ui-menu__item__wrapper {
+    margin-right: 0rem;
+    box-shadow: rgb(225, 223, 221) 0px 0px 0px 0px inset !important;
+}
+
+.default-container .container-subdiv-myprojects-discover .Menu-item {
+    margin-right: -0.2rem;
+}
+
+.container-subdiv-myprojects-discover .Menu-item .ui-menu__item {
+    padding-top: 0.5rem;
+}
+
+.container-subdiv-myprojects-discover {
+    position: relative;
+    top: 3.7rem;
+    z-index: 1;
+    width: 25rem;
+    left: 11.5rem !important;
+}
+
+.container-subdiv-myprojects-yourlearning {
+    position: relative;
+    top: 3.7rem;
+    z-index: 1;
+    width: 25rem;
+    left: 11.5rem !important
+}
+
+.container-div-discover {
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    top: -3rem !important;
+}
+
+.container-div-yourlearning {
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    top: -3rem !important;
+}
+
+.container-subdiv-myprojects-discover .ui-dropdown__container {
+    max-width: 11rem !important;
+}
+
+.container-subdiv-myprojects-discover .ui-list {
+    max-width: 13.1rem !important;
+    cursor: pointer;
+}
+
+.container-subdiv-myprojects-yourlearning .ui-dropdown__container {
+    max-width: 11rem !important;
+}
+
+.container-subdiv-myprojects-yourlearning .ui-list {
+    max-width: 13.1rem !important;
+    cursor: pointer;
+}
+
+/*If the screen zoom level is 33% or less */
+@media (min-width:3901px) {
+    .container-subdiv-myprojects-discover {
+        left: 113rem !important
+    }
+    .container-subdiv-myprojects-yourlearning {
+        left: 113rem !important
+    }
+}
+
+/*If the screen zoom level is 50% */
+@media (min-width: 2600px) and (max-width:3900px) {
+    .container-subdiv-myprojects-discover {
+        left: 44rem !important
+    }
+    .container-subdiv-myprojects-yourlearning {
+        left: 44rem !important
+    }
+}
+
+/*If the screen zoom level is 67%  */
+@media (min-width: 1901px) and (max-width:2599px) {
+    .container-subdiv-myprojects-discover {
+        left: 26rem !important
+    }
+    .container-subdiv-myprojects-yourlearning {
+        left: 26rem !important
+    }
+}
+
+/*If the screen zoom level is 75%  */
+@media (min-width: 1710px) and (max-width:1900px) {
+    .container-subdiv-myprojects-discover {
+        left: 15rem !important
+    }
+    .container-subdiv-myprojects-yourlearning {
+        left: 15rem !important
+    }
+}
+
+/*If the screen zoom level is 80% */
+@media (min-width: 1450px) and (max-width: 1709px){
+    .container-subdiv-myprojects-discover {
+        left: 9rem !important
+    }
+    .container-subdiv-myprojects-yourlearning {
+        left: 9rem !important
+    }
+}
+
+/*If the screen zoom level is 90% */
+@media (min-width: 1400px) and (max-width: 1449px) {
+    .container-subdiv-myprojects-discover {
+        left: 18.5rem !important
+    }
+    .container-subdiv-myprojects-yourlearning {
+        left: 18.5rem !important
+    }
+}
+
+/* If the screen zoom level is 100% */
+@media (min-width: 1250px ) and (max-width: 1399px) {
+    .container-subdiv-myprojects-discover {
+       left: 11rem !important
+    }
+    .container-subdiv-myprojects-yourlearning {
+        left: 11rem !important
+    }
+}
+
+/* If the screen zoom level is 110% */
+@media (min-width: 1000px ) and (max-width: 1249px) {
+    .container-subdiv-myprojects-discover {
+        left: 5rem !important
+    }
+    .container-subdiv-myprojects-yourlearning {
+        left: 5rem !important
+    }
+}
+
+/* If the screen zoom level is 125%*/
+@media (min-width: 549px) and (max-width: 999px) {
+    .container-subdiv-myprojects-discover {
+        left: 14.5rem !important
+    }
+    .container-subdiv-myprojects-yourlearning {
+        left: 14.5rem !important
+    }
+}
+
+@media (max-width: 550px) {
+    .container-subdiv-myprojects-discover {
+        max-width: 15rem !important;
+        left: 3rem !important
+    }
+
+    .container-subdiv-myprojects-yourlearning {
+        max-width: 15rem !important;
+        left: 3rem !important;
+    }
+    .card-bg {
+        padding-right: 2rem;
+        padding-left: 2rem;
+    }
+}
